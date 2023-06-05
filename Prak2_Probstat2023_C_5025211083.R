@@ -136,7 +136,7 @@ qchisq(p = 0.05, df = 2, lower.tail = FALSE)
 # 4a.
 # Buatlah plot sederhana untuk visualisasi data.
 # Jawab : 
-data <- read.csv("C:\\Users\\M. Rifqi Fadhilah\\OneDrive\\Dokumen\\coding\\Semester 4\\Probstat\\Prak2_Probstat2023_C_502521128\\GTL.csv")
+data <- read.csv("D:\\.Kuliah\\.Semester 4\\ProbStat\\Prak2\\GTL.csv")
 qplot(x = Temp, y = Light, geom = "point", data = data) + facet_grid(.~Glass, labeller = label_both)
 
 # 4b.
