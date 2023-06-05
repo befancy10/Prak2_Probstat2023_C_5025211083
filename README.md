@@ -12,7 +12,7 @@ kembali kadar saturasi oksigen dari 9 responden tersebut. Berikut data dari 9
 responden mengenai kadar saturasi oksigen sebelum dan sesudah melakukan
 aktivitas.
 
-![Alt Text|width=500](./img/soal1.png)
+![Alt Text|width=500](./img/1.jpg)
 
 Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari
 responden ke-3 ketika belum melakukan aktivitas 𝐴 sebanyak 67, dan setelah
@@ -33,7 +33,7 @@ Kita perlu menyimpan data percobaan tersebut ke dalam variabel X dan Y. Setelah 
 
 Output:
 
-![Alt Text](./img/1a.png)
+![Alt Text](./img/1a.jpg)
 
 ### 1b
 
@@ -50,7 +50,7 @@ Dengan menggunakan fungsi t.test(), kita dapat menghasilkan ringkasan uji statis
 
 Output:
 
-![Alt Text](./img/1b.png)
+![Alt Text](./img/1b.jpg)
 
 ### 1c
 Tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam
@@ -78,7 +78,7 @@ if (t_test_result$p.value <= alfa) {
 Untuk menentukan apakah H0 ditolak atau tidak, kita dapat menggunakan fungsi t.test(). Jika nilai p-value lebih kecil dari alpha atau berada dalam daerah penolakan, maka H0 ditolak. Dalam output sebenarnya dari fungsi t.test(), kita bisa langsung mendapatkan kesimpulan hipotesis dengan menggunakan beberapa parameter. Namun, dalam kasus ini, kita membandingkan nilai p-value secara manual dengan alpha. Dari output, terlihat bahwa H0 ditolak, yang berarti terdapat pengaruh yang signifikan secara statistik dalam hal kadar saturasi oksigen sebelum dan sesudah melakukan aktivitas A.
 
 Output:
-![Alt Text](./img/1c.png)
+![Alt Text](./img/1c.jpg)
 
 ## Nomor 2
 Diketahui bahwa mobil dikemudikan rata-rata lebih dari 25.000 kilometer per
@@ -108,14 +108,14 @@ tsum.test(mean.x = 23500, s.x = 3000, n.x = 100, conf.level = 0.95, mu = 25000)
 ```
 
 Output:
-![Alt Text](./img/2b.png)
+![Alt Text](./img/2b.jpg)
 
 ## Nomor 3
 Diketahui perusahaan memiliki seorang data analyst yang ingin memecahkan
 permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya
 didapatkanlah data berikut dari perusahaan saham tersebut.
 
-![Alt Text](./img/soal3.png)
+![Alt Text](./img/3.jpg)
 
 Dari data di atas berilah keputusan serta kesimpulan yang didapatkan. Asumsikan
 nilai variancenya sama, apakah ada perbedaan pada rata-ratanya (α= 0.05)?
@@ -144,7 +144,7 @@ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 20, mean.y =2.79 , s.y = 1.5, n.y = 27,
 Dengan menggunakan fungsi tsum.test(), kita memperoleh ringkasan statistik dari kedua data yang ingin diuji. Kita menentukan argumen alternatif sebagai "two.sided" karena kita ingin membuktikan bahwa kedua data memiliki mean yang berbeda dalam kedua arah. Terakhir, karena kita mengasumsikan bahwa variance kedua data sama, kita mengatur var.equal = true. Hasil uji statistik dapat dilihat pada output.
 
 Output:
-![Alt Text](./img/3b.png)
+![Alt Text](./img/3b.jpg)
 
 ### 3c
 Lakukan uji statistik (df =2)
@@ -159,7 +159,7 @@ plotDist(dist = 't', df = 2, col = "blue")
 Untuk uji statistik, kita hanya akan menggunakan plot dist dengan df = 2 untuk melihat distribusinya
 
 Output:
-![Alt Text](./img/3c.png)
+![Alt Text](./img/3c.jpg)
 
 ### 3d
 Nilai kritikal
@@ -173,7 +173,7 @@ dengan menggunakan qchisq() dari df=2 dan confidence lefel = 95%, didapat nilai 
 
 Output:
 
-![Alt Text](./img/3d.png)
+![Alt Text](./img/3d.jpg)
 
 ### 3e
 Keputusan
@@ -207,7 +207,7 @@ qplot(x = Temp, y = Light, geom = "point", data = data) + facet_grid(.~Glass, la
 ```
 Output:
 
-![Alt Text](./img/4a.png)
+![Alt Text](./img/4a.jpg)
 
 ### 4b
 Lakukan uji ANOVA dua arah.
@@ -225,7 +225,7 @@ anova_summary
 
 Output:
 
-![Alt Text](./img/4b.png)
+![Alt Text](./img/4b.jpg)
 
 ### 4c
 
@@ -244,4 +244,4 @@ summary
 
 Output:
 
-![Alt Text](./img/4c.png)
+![Alt Text](./img/4c.jpg)
