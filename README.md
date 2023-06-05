@@ -202,7 +202,7 @@ Jawab:
 Pertama kita harus membaca file csv nya dengan read.csv(), lalu kita tinngal membuat plot dengan qplot() untuk masing masing jenis kaca
 
 ```
-data <- read.csv("C:\\Users\\M. Rifqi Fadhilah\\OneDrive\\Dokumen\\coding\\Semester 4\\Probstat\\Prak2_Probstat2023_C_502521128\\GTL.csv")
+data <- read.csv("D:\\.Kuliah\\.Semester 4\\ProbStat\\Prak2\\GTL.csv")
 qplot(x = Temp, y = Light, geom = "point", data = data) + facet_grid(.~Glass, labeller = label_both)
 ```
 Output:
